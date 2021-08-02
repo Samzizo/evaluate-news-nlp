@@ -57,3 +57,9 @@ npm install
 **Note:** The web page can be accessed with `localhost:8080`
 
 6. Open browser at http://localhost:8081/
+
+7. To start mode developement run:
+```
+npm run build-dev
+```
+
