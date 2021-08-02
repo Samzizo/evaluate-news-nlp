@@ -40,7 +40,7 @@ app.get('/test', function (req, res) {
 })
 
 // POST Route
-app.post('/mcapi', async function(req, res) {
+app.post('//http://localhost:8081/mcapi', async function(req, res) {
     projectData = req.body.url;
     console.log(`Data: ${projectData}`);
 

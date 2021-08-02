@@ -32,7 +32,7 @@ function handleSubmit(e) {
 
     if (Client.checkUrl(formText)) {
         console.log("::: Form Submitted :::")
-        postData('/mcapi', { url: formText })
+        postData('/http://localhost:8081/mcapi', { url: formText })
             .then((function (data) {
                 updateUI(data)
             }))
