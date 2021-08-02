@@ -1,6 +1,6 @@
 // Import the js file to test
 
-import { checkUrl } from "../js/checkUrl";
+import { checkUrl } from "../client/js/checkUrl";
 
 
 //Describe is used to logically group the tests

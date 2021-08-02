@@ -4,7 +4,7 @@ which are not available.
 */ 
 import 'babel-polyfill'
 // Import the js file to test
-import handleSubmit from '../js/formHandler'
+import { handleSubmit } from '../client/js/formHandler'
 
 /*
 Describe is used to logically group the tests
