@@ -35,12 +35,12 @@ npm install
 3. Sign up for an API key at [meaningcloud.com](https://www.meaningcloud.com/developer/create-account)
 
 4. Configure environment variables using dotenv package
-	1. Install the dotenv package
+	* Install the dotenv package
 	```
 	npm install dotenv
 	```
-	2. Create a new `.env` file in the root of your project
-	3. Fill the `.env` file with your API key like this:
+	* Create a new `.env` file in the root of your project
+	* Fill the `.env` file with your API key like this:
 	```
 	API_KEY=**************************
 	```
