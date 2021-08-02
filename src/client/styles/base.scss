@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: sans-serif;
+    line-height: 2;
+    background: linear-gradient(45deg, #f7d4da, #ff99cc, #b4485a);
+}
+
+main {
+    flex: 2;
+    text-align: center;
+}
+
+p {
+    color: #444;
+}
+
+section {
+    max-width: 800px;
+    margin: 50px auto;
+    color: #444;
+}
+
+.container {
+    padding: 15px;
+    margin: auto;
+}

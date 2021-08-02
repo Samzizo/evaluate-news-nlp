@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    justify-content: center;
+    padding: 10px 40px;
+}
+
+.title {
+    padding: 15px;
+    margin: 20px;
+    color: #444;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    position: relative;
+    line-height: 5;
+    &::after {
+        position: absolute;
+        content: "";
+        bottom: 0;
+        left: 44%;
+        height: 2px;
+        width: 40px;
+        background: #ff99cc;
+    }
+}

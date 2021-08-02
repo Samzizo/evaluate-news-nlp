@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>FEND-Evaluate-News-NLP</title>
+        <link rel="shortcut icon" href="#">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <h1 class="title">
+                Evaluate-News-NLP
+                <i class="fa fa-heart"></i>
+            </h1>
+        </header>
+        <main>
+            <p>Please enter URL of an article</p>
+            <section>
+                <form onsubmit="return Client.handleSubmit(event)">
+                    <input id="url" type="text" name="input" value="" placeholder="Enter URL here">
+                    <button type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return handleSubmit(event)">Submit</button>
+                </form>
+            </section>
+            <section>
+                <h2>Form Results:</h2>
+                <div id="polarity"></div>
+                <div id="agreement"></div>
+                <div id="subjectivity"></div>
+                <div id="confidence"></div>
+                <div id="irony"></div>
+            </section>
+        </main>
+        <footer>
+            <div class="container">
+                    <div class="author">
+                        Samiha Amroune © 2021 Powered by
+                        <a href="https://www.udacity.com/" target="_blank">Udacity</a>
+                    </div>
+                    <div class="info">
+                        <nav class="social">
+                          <a href="#" class="item"><i class="fa fa-facebook"></i></a>
+                          <a href="#" class="item"><i class="fa fa-twitter"></i></a>
+                          <a href="#" class="item"><i class="fa fa-instagram"></i></a>
+                        </nav>
+                    </div>
+            </div>
+        </footer>
+        <script>
+            // Check that service workers are supported
+            if ('serviceWorker' in navigator) {
+                // Use the window load event to keep the page load performant
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('/service-worker.js');
+                });
+            }
+        </script>
+    </body>
+</html>
