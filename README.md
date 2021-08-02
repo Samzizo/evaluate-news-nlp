@@ -1,4 +1,4 @@
- Evaluate A News Article with NLP Author by Samiha Amroune
+# Evaluate A News Article with NLP Author by Samiha Amroune
 
 project at [Udacity](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011) Become a Front End Web Developer Nanodegree program.
 
